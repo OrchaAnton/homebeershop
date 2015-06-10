@@ -3,3 +3,9 @@
 target/
 LICENSE
 README.md
+/.classpath
+/.project
+/copy_model_jar
+/place
+/classes
+.settings/
