@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>VHMS</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap4.css" rel="stylesheet">
+
+		<link href="fuelux/css/fuelux.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+		<!-- Custom CSS -->
+    <link href="css/component.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+              <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+								<a class="navbar-brand" href="index.html">
+                    <img src="img/slogo2.png" alt="">
+                </a>
+               
+            </div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li >
+                  <a href="about.html"><i class="fa fa-info fa-lg"></i> О Проекте</a>
+                </li>
+								<li>
+                  <a href="main.html"><i class="fa fa-paw fa-lg"></i>  HandMadeItems</a>
+                </li>
+                <li class="active">
+                  <a href="masters.html"><i class="fa fa-users fa-lg"></i> HandMadeTeam</a>
+                </li>
+                <li>
+                  <a href="blogs.html"><i class="fa fa-newspaper-o fa-lg"></i> HandMadeBlogs</a>
+                </li>
+              </ul>
+							
+							 <ul class="nav navbar-nav navbar-right">
+							 
+								<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bruce Wayne<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Моя витрина</a>
+                            </li>
+                            <li>
+                                <a href="#">Мой блог</a>
+                            </li>
+                            <li>
+                                <a href="#">Настройки</a>
+                            </li>
+                            <li>
+                                <a href="#">Мои заказы</a>
+                            </li>
+                            <li>
+                                <a href="#">Мои покупки</a>
+                            </li>
+                        </ul>
+                    </li>
+										<li>
+											<button type="button" class="btn btn-success btn-sm navbar-btn" onclick="javascript:location.href='main.html'">Выход <i class="fa fa-sign-out fa-lg"></i></button>
+										</li>
+							 </ul>
+							 
+							 <img class="img-circle navbar-right" style="width:40px;height:40px; margin-top:5px" src="http://thetransformedmale.files.wordpress.com/2011/06/bruce-wayne-armani.jpg" />
+						</div>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill header1"></div>
+                <div class="carousel-caption">
+                    <h1>Добро пожаловать!</h1>
+
+              <p>Наш портал - это площадка с безграничными возможностями, на которой вы можете организовать магазин ручных поделок или купить у мастеров оригинальные вещи</p>
+
+              <p><a class="btn btn-lg btn-primary" href="sidebar.html" role="button">Sign up today</a></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill header2"></div>
+                <div class="carousel-caption">
+                    <h1>Оригинальные подарки</h1>
+
+              <p>Поделки мастеров сделаны качественно и сдушой. Тут вы найдете оригинальные подарки для всех, и обязательно найдете что-то для себя!</p>
+
+              <p><a class="btn btn-lg btn-primary" href="sidebar.html" role="button">Browse gallery</a></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill header3"></div>
+                <div class="carousel-caption">
+                     <h1>Огромный выбор</h1>
+
+              <p>Море оригинальных поделок от лучших мастеров</p>
+
+              <p><a class="btn btn-lg btn-primary" href="sidebar.html" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+								  <input type="text" class="master-search" placeholder="Введите имя или род занятий для поиска">
+                </h1>
+            </div>
+           <div class="col-md-4">
+					 <div class="well profile">
+								<div class="col-sm-6">
+									<h4>Nicole Pearson</h4>
+									<p><strong>Профессия: </strong> Программист</p>
+									<p><strong>О себе: </strong> Делаю все с душой и качественно </p>
+								</div>
+								<div class="col-sm-6 text-center">
+									<img src="http://www.ziarulevenimentul.ro/app/get_thumb/gethumb93.php?id=71610&w=688&h=516&crop=5" alt="" class="img-circle img-responsive">
+									<p class="text-warning">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+									</p>
+								</div>
+								<div class="col-xs-12 col-sm-12">
+									<p><strong>Навыки: </strong>
+														<span class="tags">дерево</span> 
+														<span class="tags">металл</span>
+														<span class="tags">украшения</span>
+												</p>
+										</div>                       
+								<div class="col-xs-12 divider text-center">
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 20,7K </strong></h4>
+												<p><small>Подписчиков</small></p>
+												<button class="btn btn-success btn-block btn-sm"><span class="fa fa-plus-circle"></span> Подписаться</button>
+										</div>
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 505 </strong></h4>
+												<p><small>Изделий</small></p>
+												<button class="btn btn-info btn-block btn-sm"><span class="fa fa-th"></span> Магазин</button>                   
+										</div>
+								</div>
+					 </div>                 
+				</div>
+				<div class="col-md-4">
+					 <div class="well profile">
+								<div class="col-sm-6">
+									<h4>Nicole Pearson</h4>
+									<p><strong>Профессия: </strong> Программист</p>
+									<p><strong>О себе: </strong> Делаю все с душой и качественно </p>
+								</div>
+								<div class="col-sm-6 text-center">
+									<img src="http://www.24sata.hr/image/pogledajte-kako-bi-izgledale-zivotinje-da-imaju-ljudska-usta-900x600-20130415-20130419114508-35b527f9c705722dd371dfa48f378a6f.jpg" alt="" class="img-circle img-responsive">
+									<p class="text-warning">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+									</p>
+								</div>
+								<div class="col-xs-12 col-sm-12">
+									<p><strong>Навыки: </strong>
+														<span class="tags">дерево</span> 
+														<span class="tags">металл</span>
+														<span class="tags">украшения</span>
+												</p>
+										</div>                       
+								<div class="col-xs-12 divider text-center">
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 20,7K </strong></h4>
+												<p><small>Подписчиков</small></p>
+												<button class="btn btn-success btn-block btn-sm"><span class="fa fa-plus-circle"></span> Подписаться</button>
+										</div>
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 505 </strong></h4>
+												<p><small>Изделий</small></p>
+												<button class="btn btn-info btn-block btn-sm"><span class="fa fa-th"></span> Магазин</button>                   
+										</div>
+								</div>
+					 </div>                 
+				</div>
+				<div class="col-md-4">
+					 <div class="well profile">
+								<div class="col-sm-6">
+									<h4>Nicole Pearson</h4>
+									<p><strong>Профессия: </strong> Программист</p>
+									<p><strong>О себе: </strong> Делаю все с душой и качественно </p>
+								</div>
+								<div class="col-sm-6 text-center">
+									<img src="http://i2.2photo.ru/7/w/313495.jpg" alt="" class="img-circle img-responsive">
+									<p class="text-warning">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+									</p>
+								</div>
+								<div class="col-xs-12 col-sm-12">
+									<p><strong>Навыки: </strong>
+														<span class="tags">дерево</span> 
+														<span class="tags">металл</span>
+														<span class="tags">украшения</span>
+												</p>
+										</div>                       
+								<div class="col-xs-12 divider text-center">
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 20,7K </strong></h4>
+												<p><small>Подписчиков</small></p>
+												<button class="btn btn-success btn-block btn-sm"><span class="fa fa-plus-circle"></span> Подписаться</button>
+										</div>
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 505 </strong></h4>
+												<p><small>Изделий</small></p>
+												<button class="btn btn-info btn-block btn-sm"><span class="fa fa-th"></span> Магазин</button>                   
+										</div>
+								</div>
+					 </div>                 
+				</div>
+				<div class="col-md-4">
+					 <div class="well profile">
+								<div class="col-sm-6">
+									<h4>Nicole Pearson</h4>
+									<p><strong>Профессия: </strong> Программист</p>
+									<p><strong>О себе: </strong> Делаю все с душой и качественно </p>
+								</div>
+								<div class="col-sm-6 text-center">
+									<img src="http://www.lepotaizdravlje.rs/wp-content/uploads/2012/10/crvenokose-dame.jpg" alt="" class="img-circle img-responsive">
+									<p class="text-warning">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+									</p>
+								</div>
+								<div class="col-xs-12 col-sm-12">
+									<p><strong>Навыки: </strong>
+														<span class="tags">дерево</span> 
+														<span class="tags">металл</span>
+														<span class="tags">украшения</span>
+												</p>
+										</div>                       
+								<div class="col-xs-12 divider text-center">
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 20,7K </strong></h4>
+												<p><small>Подписчиков</small></p>
+												<button class="btn btn-success btn-block btn-sm"><span class="fa fa-plus-circle"></span> Подписаться</button>
+										</div>
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 505 </strong></h4>
+												<p><small>Изделий</small></p>
+												<button class="btn btn-info btn-block btn-sm"><span class="fa fa-th"></span> Магазин</button>                   
+										</div>
+								</div>
+					 </div>                 
+				</div>
+				<div class="col-md-4">
+					 <div class="well profile">
+								<div class="col-sm-6">
+									<h4>Nicole Pearson</h4>
+									<p><strong>Профессия: </strong> Программист</p>
+									<p><strong>О себе: </strong> Делаю все с душой и качественно </p>
+								</div>
+								<div class="col-sm-6 text-center">
+									<img src="http://banana.by/uploads/posts/1207407929_spongebob_squarepants.jpg" alt="" class="img-circle img-responsive">
+									<p class="text-warning">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+									</p>
+								</div>
+								<div class="col-xs-12 col-sm-12">
+									<p><strong>Навыки: </strong>
+														<span class="tags">дерево</span> 
+														<span class="tags">металл</span>
+														<span class="tags">украшения</span>
+												</p>
+										</div>                       
+								<div class="col-xs-12 divider text-center">
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 20,7K </strong></h4>
+												<p><small>Подписчиков</small></p>
+												<button class="btn btn-success btn-block btn-sm"><span class="fa fa-plus-circle"></span> Подписаться</button>
+										</div>
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 505 </strong></h4>
+												<p><small>Изделий</small></p>
+												<button class="btn btn-info btn-block btn-sm"><span class="fa fa-th"></span> Магазин</button>                   
+										</div>
+								</div>
+					 </div>                 
+				</div>
+				<div class="col-md-4">
+					 <div class="well profile">
+								<div class="col-sm-6">
+									<h4>Nicole Pearson</h4>
+									<p><strong>Профессия: </strong> Программист</p>
+									<p><strong>О себе: </strong> Делаю все с душой и качественно </p>
+								</div>
+								<div class="col-sm-6 text-center">
+									<img src="http://skacat.com/uploads/posts/2011-09/skacat.com_1317025923_smex.jpg" alt="" class="img-circle img-responsive">
+									<p class="text-warning">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+									</p>
+								</div>
+								<div class="col-xs-12 col-sm-12">
+									<p><strong>Навыки: </strong>
+														<span class="tags">дерево</span> 
+														<span class="tags">металл</span>
+														<span class="tags">украшения</span>
+												</p>
+										</div>                       
+								<div class="col-xs-12 divider text-center">
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 20,7K </strong></h4>
+												<p><small>Подписчиков</small></p>
+												<button class="btn btn-success btn-block btn-sm"><span class="fa fa-plus-circle"></span> Подписаться</button>
+										</div>
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 505 </strong></h4>
+												<p><small>Изделий</small></p>
+												<button class="btn btn-info btn-block btn-sm"><span class="fa fa-th"></span> Магазин</button>                   
+										</div>
+								</div>
+					 </div>                 
+				</div>
+				<div class="col-md-4">
+					 <div class="well profile">
+								<div class="col-sm-6">
+									<h4>Nicole Pearson</h4>
+									<p><strong>Профессия: </strong> Программист</p>
+									<p><strong>О себе: </strong> Делаю все с душой и качественно </p>
+								</div>
+								<div class="col-sm-6 text-center">
+									<img src="http://www.24sata.hr/image/pogledajte-kako-bi-izgledale-zivotinje-da-imaju-ljudska-usta-900x600-20130415-20130419114508-35b527f9c705722dd371dfa48f378a6f.jpg" alt="" class="img-circle img-responsive">
+									<p class="text-warning">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+									</p>
+								</div>
+								<div class="col-xs-12 col-sm-12">
+									<p><strong>Навыки: </strong>
+														<span class="tags">дерево</span> 
+														<span class="tags">металл</span>
+														<span class="tags">украшения</span>
+												</p>
+										</div>                       
+								<div class="col-xs-12 divider text-center">
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 20,7K </strong></h4>
+												<p><small>Подписчиков</small></p>
+												<button class="btn btn-success btn-block btn-sm"><span class="fa fa-plus-circle"></span> Подписаться</button>
+										</div>
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 505 </strong></h4>
+												<p><small>Изделий</small></p>
+												<button class="btn btn-info btn-block btn-sm"><span class="fa fa-th"></span> Магазин</button>                   
+										</div>
+								</div>
+					 </div>                 
+				</div>
+				<div class="col-md-4">
+					 <div class="well profile">
+								<div class="col-sm-6">
+									<h4>Nicole Pearson</h4>
+									<p><strong>Профессия: </strong> Программист</p>
+									<p><strong>О себе: </strong> Делаю все с душой и качественно </p>
+								</div>
+								<div class="col-sm-6 text-center">
+									<img src="http://skacat.com/uploads/posts/2011-09/skacat.com_1317025923_smex.jpg" alt="" class="img-circle img-responsive">
+									<p class="text-warning">
+										<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+									</p>
+								</div>
+								<div class="col-xs-12 col-sm-12">
+									<p><strong>Навыки: </strong>
+														<span class="tags">дерево</span> 
+														<span class="tags">металл</span>
+														<span class="tags">украшения</span>
+												</p>
+										</div>                       
+								<div class="col-xs-12 divider text-center">
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 20,7K </strong></h4>
+												<p><small>Подписчиков</small></p>
+												<button class="btn btn-success btn-block btn-sm"><span class="fa fa-plus-circle"></span> Подписаться</button>
+										</div>
+										<div class="col-xs-12 col-sm-6 emphasis">
+												<h4><strong> 505 </strong></h4>
+												<p><small>Изделий</small></p>
+												<button class="btn btn-info btn-block btn-sm"><span class="fa fa-th"></span> Магазин</button>                   
+										</div>
+								</div>
+					 </div>                 
+				</div>
+            
+            
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+    <footer>
+        <div id="contact" class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>VirtualHandMadeShop</strong>
+                    </h4>
+                    <p>Россия, г.Москва<br> 100100 Красная площадь, д.1</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-78-90</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:info@vhms.com">info@vhms.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                   
+                    <p class="text-muted">Copyright &copy; VirtualHandMadeShop 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+		$(".btn-info.btn-block").click(function(){location.href="store.html"})
+    $('.carousel').carousel({
+        interval: 3000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
